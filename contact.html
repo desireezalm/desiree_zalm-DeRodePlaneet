@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <div class="container">
+            <header div class="header">                
+                <h1>De Rode Planeet</h1>                
+            </header>
+            <nav div class="nav">
+                <li div class="nav"><a href="index.html">Home</a></li>           
+                <li div class="nav"><a href="planeet.html">De Planeet</a></li>
+                <li div class="nav"><a href="ontdekking.html">Ontdekking</a></li>
+                <li div class="nav"><a href="verkenning.html">Verkenning</a></li>
+                <li div class="nav"><a href="contact.html">Contact</a></li>
+            </nav>            
+            <main div class="content">  
+                <h2>Contact</h2>
+                <br>
+                <img src="Mars_Express_view_of_Terra_Sabaea_and_Arabia_Terra.jpg" alt="Mars" div class="image" />     
+                <br>                     
+                <form name="inzending" method="POST" data-netlify="true" div class="my-form">
+                    <div>
+                        <p>
+                            <label>Naam: <input type="text" name="name" /></label>
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>
+                            <label>Email adres: <input type="email" /></label>
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>
+                            <label>Leeftijd: <input type="number" id="age" name="leeftijd" min="12" max="110" /></label>
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>
+                            Geslacht: 
+                            <br><br>                           
+                            <input type="radio" name="geslacht" id="man" value="man" /> Man <br>
+                            <input type="radio" name="geslacht" id="vrouw" value="vrouw" /> Vrouw <br>
+                            <input type="radio" name="geslacht" id="anders" value="anders" /> Anders <br>
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>
+                            Favoriete planeten:
+                            <br><br>
+                            <input type="checkbox" name="planeet1" id="mercurius" value="mercurius" /> Mercurius <br>
+                            <input type="checkbox" name="planeet2" id="venus" value="venus" /> Venus <br>
+                            <input type="checkbox" name="planeet3" id="aarde" value="aarde" /> Aarde <br>
+                            <input type="checkbox" name="planeet4" id="mars" value="mars" /> Mars <br>
+                            <input type="checkbox" name="planeet5" id="jupiter" value="jupiter" /> Jupiter <br>
+                            <input type="checkbox" name="planeet6" id="saturnus" value="saturnus" /> Saturnus <br>
+                            <input type="checkbox" name="planeet7" id="uranus" value="uranus" /> Uranus <br>
+                            <input type="checkbox" name="planeet8" id="neptunus" value="neptunus" /> Neptunus <br>
+                        </p>
+                    </div>
+                    <br>
+                    <div>    
+                        <p>
+                            <label>Bericht: </label>
+                            <br>
+                            <textarea rows="15" cols="50" name="bericht"></textarea>
+                        </p>
+                    </div>
+                    <br>
+                    <div>
+                        <p>
+                            <input class="button" type="reset">
+                            <button class="button" type="submit">Versturen</button>
+                        </p>
+                    </div>
+                </form>            
+            </main>
+            <footer div class="footer">
+                <p>Links: </p>
+                <a href= "https://en.wikipedia.org/wiki/Mars">Mars (Wikipedia)</a>
+                <a href= "https://mars.nasa.gov/">Mars Exploration program (NASA)</a>
+            </footer>
+        </div>
+    </body>
+</html>
